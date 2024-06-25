@@ -7,7 +7,7 @@ const nextConfig = {
       // Basic redirect
       {
         source: '/',
-        destination: 'https://twitter.com',
+        destination: 'https://links.doggibelle.quest',
         permanent: true,
       }
     ]
