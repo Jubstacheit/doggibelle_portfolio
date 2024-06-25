@@ -1,12 +1,11 @@
 import dynamic from "next/dynamic";
 import Scene from "./scene";
+import { Spinner } from "@nextui-org/spinner";
 
 export default function Home() {
   return (
-    /*<main className="flex min-h-screen flex-col items-center justify-between p-24">*/
-    <div className="h-screen w-full">
+    <section className="h-screen w-full flex justify-center align-middle">
       <Scene />
-    </div>
-    /*</main>*/
+    </section>
   );
 }

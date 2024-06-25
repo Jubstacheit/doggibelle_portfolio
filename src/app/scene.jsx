@@ -3,16 +3,17 @@
 import { Canvas } from "@react-three/fiber";
 import {Model} from "./chibibel";
 import { Environment, OrbitControls } from "@react-three/drei";
+import { Spinner } from "@nextui-org/spinner";
 import { Suspense } from "react";
 
 export default function Scene() {
 	return (
-		<Canvas>
-			<Suspense fallback={null}>
+		<Suspense fallback={<Spinner color="primary"/>}>
+			<Canvas>
 				<Model />
 				<OrbitControls />
 				<Environment background preset="forest" />
-			</Suspense>
-		</Canvas>
+			</Canvas>
+		</Suspense>
 	);
 }
