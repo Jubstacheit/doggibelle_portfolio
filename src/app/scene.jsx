@@ -8,7 +8,7 @@ import { Suspense } from "react";
 
 export default function Scene() {
 	return (
-		<Suspense fallback={<Spinner color="primary"/>}>
+		<Suspense fallback={<Spinner label="test" color="primary"/>}>
 			<Canvas>
 				<Model />
 				<OrbitControls />
