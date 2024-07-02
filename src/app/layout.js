@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+import React from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import {NextUIProvider} from "@nextui-org/react";
