@@ -47,6 +47,11 @@ export default {
         base: '500',
         heading: '900',
       },
+      fontFamily: {
+        base: ['var(--font-teko)'],
+        sans: ['var(--font-inter)'],
+        heading: ['var(--font-jetbrainsMono)'],
+      },
     },
   },
   plugins: [require("tailwindcss-animate"), nextui()],
