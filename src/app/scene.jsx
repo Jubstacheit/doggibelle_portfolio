@@ -9,7 +9,7 @@ import { Suspense } from "react";
 export default function Scene() {
 	return (
 		<Suspense fallback={<Spinner color="primary"/>}>
-			<Canvas style={{ width: "30vw", height: "30vh", alignSelf: "center" }}>
+			<Canvas style={{ width: "300px", height: "300px", alignSelf: "center" }}>
 				<Model />
 				<OrbitControls />
 				<Environment background preset="forest" />
