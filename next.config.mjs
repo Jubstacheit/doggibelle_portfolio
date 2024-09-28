@@ -3,7 +3,14 @@ import MillionLint from '@million/lint';
 const nextConfig = {
   transpilePackages: ['three'],
   images: {
-    domains: ['img2.finalfantasyxiv.com']
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'img2.finalfantasyxiv.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
   }
 };
 export default MillionLint.next({

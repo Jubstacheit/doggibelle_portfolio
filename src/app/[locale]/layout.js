@@ -3,6 +3,7 @@ import React from "react";
 import { Inter, Teko, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import {NextUIProvider} from "@nextui-org/react";
+import { getCurrentLocale } from "../../locales/server";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const teko = Teko({ subsets: ["latin"], display: "swap", variable: "--font-teko" });
@@ -13,12 +14,15 @@ export const metadata = {
   description: "portfolio",
 };
 
+
 export default function RootLayout({ children }) {
+  const locale = getCurrentLocale();
+
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning>
       <body>
         <NextUIProvider>
-          <main className={`${inter.variable} ${teko.variable} ${jetbrainsMono.variable}`}>{children}</main>
+            <main className={`${inter.variable} ${teko.variable} ${jetbrainsMono.variable}`}>{children}</main>
         </NextUIProvider>
       </body>
     </html>
