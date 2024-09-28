@@ -2,6 +2,7 @@ import React from "react";
 import Scene from "./scene";
 import Elegg from "@/components/images/Elegg";
 import Cliodhna from "@/components/images/Cliodhna";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
