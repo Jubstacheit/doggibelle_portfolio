@@ -23,6 +23,7 @@
     "framer-motion": "^11.2.11",
     "lucide-react": "^0.397.0",
     "next": "14.2.4",
+    "next-international": "^1.2.4",
     "puppeteer": "^23.3.0",
     "react": "^18",
     "react-dom": "^18",
