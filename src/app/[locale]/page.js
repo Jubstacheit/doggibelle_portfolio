@@ -2,16 +2,16 @@ import React from "react";
 import Scene from "@/components/misc/scene";
 import Elegg from "@/components/images/Elegg";
 import Cliodhna from "@/components/images/Cliodhna";
-import { getI18n } from "../../locales/server";
+import LangSwitcher from "@/components/lang/langSwitcher";
 
 export default async function Home() {
-  const t = await getI18n();
 
   return (
     <section className={`h-screen w-full flex justify-center align-middle bg-indigo-950 bg-[linear-gradient(to_right,#7c3a8790_2px,transparent_2px),linear-gradient(to_bottom,#7c3a8790_2px,transparent_2px)] bg-[size:48px_48px]`}>
       <Scene/>
       <Elegg/>
       <Cliodhna/>
+      <LangSwitcher/>
     </section>
   );
 }
