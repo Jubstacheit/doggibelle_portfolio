@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@cloudinary/react": "^1.13.0",
+    "@cloudinary/url-gen": "^1.21.0",
     "@million/lint": "^1.0.0-rc.26",
     "@nextui-org/react": "^2.4.2",
     "@radix-ui/react-accordion": "^1.2.0",
@@ -24,6 +26,7 @@
     "framer-motion": "^11.2.11",
     "lucide-react": "^0.397.0",
     "next": "14.2.4",
+    "next-cloudinary": "^6.13.0",
     "next-international": "^1.2.4",
     "puppeteer": "^23.3.0",
     "react": "^18",
