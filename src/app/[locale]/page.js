@@ -2,7 +2,6 @@ import React from "react";
 import Scene from "@/components/misc/scene";
 import Elegg from "@/components/images/Elegg";
 import Cliodhna from "@/components/images/Cliodhna";
-import LangSwitcher from "@/components/lang/langSwitcher";
 
 export default async function Home() {
 
