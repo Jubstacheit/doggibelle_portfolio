@@ -11,7 +11,6 @@ export default async function Home() {
       <Scene/>
       <Elegg/>
       <Cliodhna/>
-      <LangSwitcher/>
     </section>
   );
 }

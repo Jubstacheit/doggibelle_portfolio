@@ -11,10 +11,10 @@ export default function LangSwitcher() {
 	const Lang = currentLocale === 'fr' ? "Langue" : currentLocale === 'en' ? "Language" : "言語";
 
 	return (
-		<Accordion className='w-36' type="multiple" collapsible={true}>
+		<Accordion className='w-36 font-heading' type="multiple" collapsible={true}>
 			<AccordionItem value="item-1">
 				<AccordionTrigger>{Lang}</AccordionTrigger>
-					<AccordionContent>
+					<AccordionContent className='text-center p-2'>
 						{['fr', 'en', 'jp'].filter(l => l !== currentLocale).map(l => (
 							<Button key={l} variant="link" onClick={() => changeLocale(l) }>{l.toUpperCase()}</Button>
 						))}
