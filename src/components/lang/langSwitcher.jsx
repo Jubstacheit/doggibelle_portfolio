@@ -11,7 +11,7 @@ export default function LangSwitcher() {
 	const Lang = currentLocale === 'fr' ? "Langue" : currentLocale === 'en' ? "Language" : "言語";
 
 	return (
-		<Accordion className='w-36 font-heading' type="multiple" collapsible={true}>
+		<Accordion className='w-36 font-heading' type="multiple" collapsible>
 			<AccordionItem value="item-1">
 				<AccordionTrigger>{Lang}</AccordionTrigger>
 					<AccordionContent className='text-center p-2'>
