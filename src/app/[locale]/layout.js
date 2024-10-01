@@ -4,6 +4,7 @@ import { Inter, Teko, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import {NextUIProvider} from "@nextui-org/react";
 import { getCurrentLocale } from "../../locales/server";
+import Clock from "@/components/misc/Clock";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const teko = Teko({ subsets: ["latin"], display: "swap", variable: "--font-teko" });
@@ -22,7 +23,10 @@ export default function RootLayout({ children }) {
     <html lang={locale} suppressHydrationWarning>
       <body>
         <NextUIProvider>
-            <main className={`${inter.variable} ${teko.variable} ${jetbrainsMono.variable}`}>{children}</main>
+            <main className={`${inter.variable} ${teko.variable} ${jetbrainsMono.variable}`}>
+            <Clock />
+            {children}
+            </main>
         </NextUIProvider>
       </body>
     </html>
