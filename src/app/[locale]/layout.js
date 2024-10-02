@@ -3,7 +3,9 @@ import React from "react";
 import { Inter, Teko, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import "../../components/misc/CRTEffect.css"
+import "../../components/misc/Vignette.css"
 import CRTEffect from "@/components/misc/CRTEffect"
+import Vignette from "@/components/misc/Vignette";
 import {NextUIProvider} from "@nextui-org/react";
 import { getCurrentLocale } from "../../locales/server";
 import Clock from "@/components/misc/Clock";
@@ -28,6 +30,7 @@ export default function RootLayout({ children }) {
             <main className={`${inter.variable} ${teko.variable} ${jetbrainsMono.variable}`}>
             <Clock />
             <CRTEffect />
+            <Vignette />
             {children}
             </main>
         </NextUIProvider>
