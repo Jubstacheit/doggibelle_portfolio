@@ -2,8 +2,8 @@
 import React from "react";
 import { Inter, Teko, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import "../../components/misc/CRTEffect.css"
-import "../../components/misc/Vignette.css"
+import "@/components/misc/CRTEffect.css"
+import "@/components/misc/Vignette.css"
 import Vignette from "@/components/misc/Vignette";
 import {NextUIProvider} from "@nextui-org/react";
 import { getCurrentLocale } from "../../locales/server";
