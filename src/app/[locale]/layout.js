@@ -4,7 +4,6 @@ import { Inter, Teko, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import "../../components/misc/CRTEffect.css"
 import "../../components/misc/Vignette.css"
-import CRTEffect from "@/components/misc/CRTEffect"
 import Vignette from "@/components/misc/Vignette";
 import {NextUIProvider} from "@nextui-org/react";
 import { getCurrentLocale } from "../../locales/server";
@@ -27,9 +26,8 @@ export default function RootLayout({ children }) {
     <html lang={locale} suppressHydrationWarning>
       <body>
         <NextUIProvider>
-            <main className={`${inter.variable} ${teko.variable} ${jetbrainsMono.variable}`}>
+            <main className={`${inter.variable} ${teko.variable} ${jetbrainsMono.variable} crt`}>
             <Clock />
-            <CRTEffect />
             <Vignette />
             {children}
             </main>
