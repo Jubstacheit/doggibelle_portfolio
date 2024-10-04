@@ -15,7 +15,7 @@ export default async function LatestTracks() {
 
 	return (
 		<div>
-			<Image src={img} width={20} height={20}/>
+			<Image src={img} width={200} height={200}/>
 		</div>
 	)
 }
