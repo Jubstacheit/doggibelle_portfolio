@@ -2,6 +2,7 @@ import React from "react";
 import Scene from "@/components/misc/scene";
 import Elegg from "@/components/images/Elegg";
 import Upload from "@/components/cloudinary/Upload";
+import LatestTracks from "@/components/lastfm/LatestTracks";
 
 export default async function Home() {
   return (
@@ -9,6 +10,7 @@ export default async function Home() {
       <Scene/>
       <Elegg/>
       <Upload/>
+      <LatestTracks/>
     </section>
   );
 }
