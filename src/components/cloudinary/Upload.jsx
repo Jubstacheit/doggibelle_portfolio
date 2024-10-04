@@ -5,6 +5,6 @@ import { Button } from '../ui/button';
 
 export default function Upload() {
 	return (
-		<div>test</div>
+		<div></div>
 	);
 }

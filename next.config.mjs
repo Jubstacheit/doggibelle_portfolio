@@ -10,6 +10,12 @@ const nextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'lastfm.freetls.fastly.net',
+        port: '',
+        pathname: '/**',
+      },
     ],
   }
 };
