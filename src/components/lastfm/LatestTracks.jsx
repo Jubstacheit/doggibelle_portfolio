@@ -18,29 +18,32 @@ export default async function LatestTracks() {
 	const latestTracks = await getTopTracks()
 
 	return (
-		<ResizablePanelGroup
-			direction="horizontal"
-			className="rounded-base max-w-36 max-h-24 border-2 border-border text-text dark:border-darkBorder shadow-light dark:shadow-dark"
-		>
-			<ResizablePanel defaultSize={100}>
-				<div className="flex h-full w-full items-center justify-center bg-main">
-					<Image src={latestTracks[0].image[3]['#text']} width={200} height={200} />
-				</div>
-			</ResizablePanel>
-			<ResizablePanel defaultSize={50}>
-				<ResizablePanelGroup direction="vertical">
-					<ResizablePanel defaultSize={50}>
-						<div className="flex h-full w-full items-center justify-center bg-main">
-							<Image src={latestTracks[1].image[3]['#text']} width={200} height={200} />
-						</div>
-					</ResizablePanel>
-					<ResizablePanel defaultSize={50}>
-						<div className="flex h-full w-full items-center justify-center bg-main">
-							<Image src={latestTracks[2].image[3]['#text']} width={200} height={200} />
-						</div>
-					</ResizablePanel>
-				</ResizablePanelGroup>
-			</ResizablePanel>
-		</ResizablePanelGroup>
+		<div className='max-w-36'>
+			<ResizablePanelGroup
+				direction="horizontal"
+				className="rounded-base max-w-36 max-h-24 border-2 border-border text-text dark:border-darkBorder shadow-light dark:shadow-dark"
+			>
+				<ResizablePanel defaultSize={100}>
+					<div className="flex h-full w-full items-center justify-center bg-main">
+						<Image src={latestTracks[0].image[3]['#text']} width={200} height={200} />
+					</div>
+				</ResizablePanel>
+				<ResizablePanel defaultSize={50}>
+					<ResizablePanelGroup direction="vertical">
+						<ResizablePanel defaultSize={50}>
+							<div className="flex h-full w-full items-center justify-center bg-main">
+								<Image src={latestTracks[1].image[3]['#text']} width={200} height={200} />
+							</div>
+						</ResizablePanel>
+						<ResizablePanel defaultSize={50}>
+							<div className="flex h-full w-full items-center justify-center bg-main">
+								<Image src={latestTracks[2].image[3]['#text']} width={200} height={200} />
+							</div>
+						</ResizablePanel>
+					</ResizablePanelGroup>
+				</ResizablePanel>
+			</ResizablePanelGroup>
+			<p className='text-main text-md font-base text-wrap'>Now playing : {latestTracks[0].name} - {latestTracks[0].artist['#text']}</p>
+		</div>
 	)
 }
