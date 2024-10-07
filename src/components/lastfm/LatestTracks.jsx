@@ -24,19 +24,19 @@ export default async function LatestTracks() {
 				className="rounded-base max-w-36 max-h-24 border-2 border-border text-text dark:border-darkBorder shadow-light dark:shadow-dark"
 			>
 				<ResizablePanel defaultSize={100}>
-					<div className="flex h-full w-full items-center justify-center bg-main">
+					<div className="flex m-0.5 h-full w-full items-center justify-center bg-main">
 						<Image src={latestTracks[0].image[3]['#text']} width={200} height={200} />
 					</div>
 				</ResizablePanel>
 				<ResizablePanel defaultSize={50}>
 					<ResizablePanelGroup direction="vertical">
 						<ResizablePanel defaultSize={50}>
-							<div className="flex h-full w-full items-center justify-center bg-main">
+							<div className="flex m-0.5 h-full w-full items-center justify-center bg-main">
 								<Image src={latestTracks[1].image[3]['#text']} width={200} height={200} />
 							</div>
 						</ResizablePanel>
 						<ResizablePanel defaultSize={50}>
-							<div className="flex h-full w-full items-center justify-center bg-main">
+							<div className="flex m-0.5 h-full w-full items-center justify-center bg-main">
 								<Image src={latestTracks[2].image[3]['#text']} width={200} height={200} />
 							</div>
 						</ResizablePanel>
