@@ -43,7 +43,7 @@ export default async function LatestTracks() {
 					</ResizablePanelGroup>
 				</ResizablePanel>
 			</ResizablePanelGroup>
-			<p className='text-main text-md font-base text-wrap'>Now playing : {latestTracks[0].name} - {latestTracks[0].artist['#text']}</p>
+			<p className='text-main text-md font-base text-wrap'>Last played : {latestTracks[0].name} by {latestTracks[0].artist['#text']}</p>
 		</div>
 	)
 }
