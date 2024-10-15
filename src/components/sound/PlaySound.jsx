@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import {Howl, Howler} from 'howler';
+import { Button } from '../ui/button';
 
 export default function PlaySound() {
 	const sound = new Howl({
