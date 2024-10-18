@@ -1,4 +1,3 @@
-/* eslint-disable tailwindcss/no-contradicting-classname */
 import React from "react";
 import Elegg from "@/components/images/Elegg";
 import Upload from "@/components/cloudinary/Upload";
