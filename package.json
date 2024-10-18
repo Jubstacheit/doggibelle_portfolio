@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "nextlint": "next lint",
-    "lint": "eslint ./src",
+    "lint": "next lint",
+    "eslint": "eslint ./src",
     "lint:debug": "eslint ./src --debug",
     "lint:fix": "eslint ./src --fix"
   },
