@@ -1,3 +1,6 @@
+/* eslint-disable tailwindcss/enforces-shorthand */
+/* eslint-disable tailwindcss/classnames-order */
+/* eslint-disable react/prop-types */
 'use client'
 
 import * as AccordionPrimitive from '@radix-ui/react-accordion'

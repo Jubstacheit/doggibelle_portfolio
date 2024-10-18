@@ -1,3 +1,6 @@
+/* eslint-disable tailwindcss/enforces-shorthand */
+/* eslint-disable no-undef */
+/* eslint-disable react/react-in-jsx-scope */
 'use client'
 
 import { GripVertical } from 'lucide-react'
