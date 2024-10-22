@@ -67,11 +67,20 @@ export default {
     				to: {
     					height: '0'
     				}
-    			}
+    			},
+				'slide-rotate-ver-right': {
+					'0%': {
+						transform: 'translateX(0) rotateY(0)',
+					},
+					'100%': {
+						transform: 'translateX(150px) rotateY(-90deg)',
+					},
+				},
     		},
     		animation: {
     			'accordion-down': 'accordion-down 0.2s ease-out',
-    			'accordion-up': 'accordion-up 0.2s ease-out'
+    			'accordion-up': 'accordion-up 0.2s ease-out',
+				'slide-rotate-ver-right': 'slide-rotate-ver-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) reverse both',
     		}
     	}
     },
