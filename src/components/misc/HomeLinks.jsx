@@ -221,13 +221,13 @@ import Link from 'next/link';
 
 	export default function HomeLinks() {
 		return (
-			<Card className="absolute right-0 self-center w-auto animate-slide-rotate-ver-right opacity-80 select-none">
+			<Card className="absolute right-0 self-center w-auto animate-slide-rotate-ver-right opacity-30 transition hover:opacity-100 select-none">
 				<CardHeader className='p-3'>
 					<CardTitle className='font-heading text-center text-sm'>Useful links</CardTitle>
 				</CardHeader>
-					<CardContent className='animate-pulse flex flex-col align-middle'>
+					<CardContent className='animate-pulse flex flex-col'>
 						{icons.map((Icon, index) => (
-							<div className='p-2 flex align-middle justify-center' key={index}>
+							<div className='p-2 flex align-middle justify-start' key={index}>
 								<Icon key={index} />
 							</div>
 						))}
