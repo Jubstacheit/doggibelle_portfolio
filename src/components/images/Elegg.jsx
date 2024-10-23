@@ -26,7 +26,7 @@ export default function Elegg( { loop, src } ) {
 				}
 			}
 		}>
-			<Image src="/elegg-nikke.gif" unoptimized width={200} height={200} layout="fixed" objectFit="contain"/>
+			<Image src="/elegg-nikke.gif" unoptimized className="w-24 h-auto" width={100} height={100} layout="fixed" objectFit="contain"/>
 		</div>
 	);
 }
