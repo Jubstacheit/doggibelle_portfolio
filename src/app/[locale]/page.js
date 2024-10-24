@@ -25,6 +25,13 @@ export default async function Home() {
         ))}
       </p>
 
+      {/* Hero section */}
+      <div className="flex z-10 self-center text-center w-full mb-96">
+        <p className="text-main font-heading text-left w-1/3 h-full">
+          Welcome to <span className="hover:text-darkText">DOGGIBELLE.QUEST</span>! This is a place where you can find all the information you need about the game.
+        </p>
+      </div>
+
         {/* Background */}
       <div className="bg-ayanami absolute top-16 self-center align-middle flex w-full h-3/5 bg-cover invert">
       </div>
