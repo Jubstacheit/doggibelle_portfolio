@@ -26,12 +26,12 @@ export default async function Home() {
       </p>
 
       {/* Hero section */}
-      <div className="flex flex-col z-10 self-center text-center w-full space-y-4 mb-96 p-4">
-        <p className="text-main font-heading text-3xl text-left w-1/4 h-full">
-          Welcome to <span className="hover:text-darkText">DOGGIBELLE.QUEST</span>!
+      <div className="flex flex-col z-10 self-center text-center w-full space-y-4 mb-48 md:mb-96 p-4">
+        <p className="text-main font-heading text-md md:text-3xl text-left w-1/3 md:w-1/4 h-full">
+          Welcome to <span className="hover:text-darkText text-wrap">DOGGIBELLE.QUEST</span>!
         </p>
-        <p className="text-main font-base text-left text-2xl w-1/4 h-full">
-          I'm Bonnie, a multidisciplinary artist. This is my small blog - portfolio - whatever. Feel free to explore this messy website :3
+        <p className="text-main font-base text-left text-sm md:text-2xl w-1/4 h-full">
+          I'm Bonnie, a multidisciplinary artist. This is my small blog - portfolio - whatever. I'm sharing all of my works here. Feel free to explore :3
         </p>
       </div>
 
