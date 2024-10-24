@@ -51,6 +51,9 @@ export default {
     			sans: ['var(--font-inter)'],
     			heading: ['var(--font-jetbrainsMono)']
     		},
+			backgroundImage: {
+				'ayanami': "url('/ayanami.jpg')",
+			},
     		keyframes: {
     			'accordion-down': {
     				from: {
@@ -80,7 +83,7 @@ export default {
     		animation: {
     			'accordion-down': 'accordion-down 0.2s ease-out',
     			'accordion-up': 'accordion-up 0.2s ease-out',
-				'slide-rotate-ver-right': 'slide-rotate-ver-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) reverse both',
+				'slide-rotate-ver-right': 'slide-rotate-ver-right 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) reverse both',
     		}
     	}
     },

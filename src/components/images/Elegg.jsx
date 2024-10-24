@@ -13,7 +13,7 @@ export default function Elegg( { loop, src } ) {
 
 	const [isPlaying, setIsPlaying] = useState(false);
 	return (
-		<div className="absolute right-0 top-0" onClick={
+		<div className="absolute right-0 bottom-0 z-20" onClick={
 			() => {
 				if (isPlaying) {
 					sound.stop();
@@ -26,7 +26,7 @@ export default function Elegg( { loop, src } ) {
 				}
 			}
 		}>
-			<Image src="/elegg-nikke.gif" unoptimized className="w-24 h-auto" width={100} height={100} layout="fixed" objectFit="contain"/>
+			<Image src="/elegg-nikke.gif" unoptimized className="w-12 h-auto crt brightness-50" width={100} height={100} objectFit="contain"/>
 		</div>
 	);
 }
