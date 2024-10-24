@@ -157,5 +157,5 @@
 	box-shadow: 0 0 2000px rgba(0, 0, 0, 0.9) inset;
   }
   .crt {
-	animation: textShadow 1.6s infinite;
+	animation: textShadow 2s infinite;
   }
