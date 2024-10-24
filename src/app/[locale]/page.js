@@ -31,7 +31,7 @@ export default async function Home() {
           Welcome to <span className="hover:text-darkText text-wrap">DOGGIBELLE.QUEST</span>!
         </p>
         <p className="text-main font-base text-left text-sm md:text-2xl w-1/4 h-full">
-          I'm Bonnie, a multidisciplinary artist. This is my small blog - portfolio - whatever. I'm sharing all of my works here. Feel free to explore :3
+          I&apos;'m Bonnie, a multidisciplinary artist. This is my small blog - portfolio - whatever. I&apos;'m sharing all of my works here. Feel free to explore :3
         </p>
       </div>
 
