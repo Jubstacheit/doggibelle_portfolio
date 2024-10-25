@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
     <html lang={locale} suppressHydrationWarning>
       <body className="overflow-hidden">
         <NextUIProvider>
-            <main className={`${inter.variable} ${teko.variable} ${jetbrainsMono.variable} crt`}>
+            <main className={`${inter.variable} ${teko.variable} ${jetbrainsMono.variable}`}>
               <Clock />
               {children}
             </main>
