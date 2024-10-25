@@ -2,6 +2,9 @@ import MillionLint from '@million/lint';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   transpilePackages: ['three'],
+  experimental: {
+    taint: true
+  },
   images: {
     remotePatterns: [
       {
@@ -16,6 +19,10 @@ const nextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: "https",
+        hostname: "cdn.sanity.io",
+      }
     ],
   }
 };
