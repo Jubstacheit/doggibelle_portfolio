@@ -1,10 +1,10 @@
 .tv-frame::before {
     content: "";
     position: absolute;
-    top: -20px;
-    left: -20px;
-    right: -20px;
-    bottom: -20px;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
     background: url('../../../public/TV.png') no-repeat center/cover;
     pointer-events: none; /* This ensures users can interact with content inside the screen */
 	filter: blur(2px) grayscale(100%) brightness(0.5);
