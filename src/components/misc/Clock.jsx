@@ -27,7 +27,7 @@ export default function Clock() {
 	}, [time, is24Hour, mounted]); 
 
 	return (
-		<div className="absolute top-0 left-0 z-10">
+		<div className="absolute top-0 left-0 lg:left-32 lg:top-1/2 z-10">
 			<Card className="p-1 border-none shadow-none text-center bg-transparent">
 				<div className="flex flex-col text-left">
 					<div className="text-2xl text-main font-base tracking-tight select-none bg-none">
