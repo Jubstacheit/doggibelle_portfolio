@@ -221,7 +221,7 @@ import Link from 'next/link';
 
 	export default function HomeLinks() {
 		return (
-			<Card className="z-20 absolute right-0 self-center max-w-20 md:max-w-40 animate-slide-rotate-ver-right opacity-30 transition peer-hover: hover:opacity-100 group select-none">
+			<Card className="z-20 absolute right-0 lg:right-1/3 lg:pr-10 lg:-mr-48 self-center max-w-20 md:max-w-40 animate-slide-rotate-ver-right opacity-30 transition peer-hover:opacity-100 hover:opacity-100 group select-none">
 				<CardHeader className='p-2'>
 					<CardTitle className='font-heading p-2 text-center text-sm text-wrap'>Useful links</CardTitle>
 				</CardHeader>

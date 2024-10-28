@@ -8,5 +8,5 @@
     background: url('../../../public/TV.png') no-repeat center/cover;
     pointer-events: none; /* This ensures users can interact with content inside the screen */
 	filter: blur(2px) grayscale(100%) brightness(0.5);
-	z-index: 50;
+	z-index: 50;    
 }

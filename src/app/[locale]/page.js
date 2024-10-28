@@ -8,7 +8,7 @@ import "./TV.css"
 export default async function Home() {
   const text = "DOGGIBELLE";
   return (
-    <div className="tv-frame">
+    <div className="tv-frame before:hidden lg:before:block">
       <section className={`crt flex h-screen w-full justify-center bg-indigo-950 bg-[linear-gradient(to_right,#7c3a8790_1px,transparent_1px),linear-gradient(to_bottom,#7c3a8790_2px,transparent_2px)] bg-[size:32px_32px] align-middle`}>
         {/* Elegg gif and sound on click */}
         <Elegg loop={false} src="/BOOM.mp3"/>
