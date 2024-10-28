@@ -13,7 +13,7 @@ export default function Elegg( { loop, src } ) {
 
 	const [isPlaying, setIsPlaying] = useState(false);
 	return (
-		<div className="absolute right-0 bottom-0 z-20" onClick={
+		<div className="absolute right-0 bottom-0 lg:right-1/3 lg:bottom-20 lg:-mr-32 z-20" onClick={
 			() => {
 				if (isPlaying) {
 					sound.stop();
