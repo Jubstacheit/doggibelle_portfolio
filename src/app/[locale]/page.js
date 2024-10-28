@@ -39,7 +39,7 @@ export default async function Home() {
         </div>
 
           {/* Background */}
-        <div className="bg-ayanami absolute top-16 self-center align-middle flex w-full h-3/5 bg-cover invert">
+        <div className="bg-ayanami absolute top-16 lg:top-10 self-center align-middle flex w-full h-3/5 bg-cover invert">
         </div>
       </section>
     </div>
